@@ -1,0 +1,86 @@
+@charset "utf-8";
+* {margin: 0;padding: 0;box-sizing: border-box; } 
+
+html,
+body {font: 10pt/180% "noto sans kr";color: black;background: #000;overflow: auto;scroll-behavior: smooth;margin: auto;width: 100%; } 
+
+.hidden {height: 100%;min-height: 100%;overflow: hidden !important;touch-action: none; } 
+
+::-webkit-scrollbar {width: 7px;height: 0px}
+
+::-webkit-scrollbar-thumb {background: aliceblue;border-radius: 3px; } 
+
+a {text-decoration: none;font: bold 1.5rem/150% "Noto Sans KR"; } 
+
+a > span {text-decoration: none;font: bold 2.9rem/150% "Noto Sans KR"; } 
+
+.span1 {color: #d2b369; } 
+
+p {font: bold 2.0rem/150% "Noto Sans KR"; } 
+
+.smallp {font: 100 2.5rem/150% "Noto Sans KR"; } 
+
+.smallp2 {font: 100 1.0rem/150% "Noto Sans KR"; } 
+
+h1 {font: 100 8.5rem/150% "Noto Sans KR"; } 
+
+h2 {font: 100 5.5rem/150% "Noto Sans KR"; } 
+
+h3 {font: 100 4.5rem/150% "Noto Sans KR"; } 
+
+h4 {font: 400 4.4rem/150% "Noto Sans KR"; } 
+
+h4 > span {font: 400 3.5rem/100% "Noto Sans KR"; } 
+
+h5 {font: 100 3.1rem/150% "Noto Sans KR"; } 
+
+h6 {font: 100 2.5rem/150% "Noto Sans KR"; } 
+
+
+
+
+
+body>div{background: url('/younge/images/header2_3.jpg'); } 
+
+#layout  {  height: 100%; background-repeat: no-repeat; position: relative;} 
+
+main {width: 100%; height: 100%; background: rgba(0,0,0,.8); } 
+
+.center {position: fixed;display: block!important;background: #fff; width: 100%; max-width: 420px; padding: 35px 50px 50px 50px;
+top: 50%; left: 50%; transform: translate(-50%,-50%);z-index: 991;}
+
+form[name="login_form"] input[type="password"] {margin-left: 15px;}
+
+.center.join {max-width: 490px;}
+
+.title {margin-bottom: 15px;}
+.center.join form p {display: flex; justify-content:space-between;position: relative;}
+.center.join input {top: 4px;}
+
+input:not([type="file"]) {height: 36px;margin-left: 10px;position: relative; top: -4px; border: 1px solid #252525;border-radius: 3px;}
+.center.join input[name="mem_profile"] {position: absolute; width: 0; height: 0; opacity: 0;}
+.center.join .file_directory {border: 1px solid #252525; border-radius: 3px; width: 171px; height: 36px;font-size: 15px;padding-bottom: 40px;text-align: center;overflow: hidden;margin-top: 2px;font:bold 1.1rem/260% 'Noto Sans KR';}
+
+input[type="text"] {margin-left: 40px;}
+
+.login_btns button,.join_btns button {margin-top: 30px;padding: 2px;font-size: 18px;background: black; border-radius: 3px; color: #fff;}
+.join_btns button {padding: 2px 4px!important;}
+
+form p {margin-bottom: 12px;}
+
+@media(max-width:600px){
+    
+input {height: 35px;margin-left: 10px;position: relative; top: -7px;}
+input[type="text"] {margin-left: 10px;}
+
+}
+
+@media(max-width:500px){
+ p {font-size: 15px; line-height: 200%;} 
+    .center.join {padding: 20px;}
+    
+    .center.join input {top: -1px;}
+.center.join .file_directory {border: 1px solid #252525; border-radius: 3px; width: 171px; height: 36px;font-size: 15px;padding-bottom: 40px;text-align: center;overflow: hidden;margin-top: 0;}
+    
+   
+}

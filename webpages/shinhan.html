@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title> 이대영 포트폴리오 </title>
+	<!-- cdn-->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<!-- 애니메이션-->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+
+	<!-- 폰트-->
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900|Noto+Serif+KR:200,300,400,500,600,700,900&display=swap&subset=korean" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lakki+Reddy&display=swap" rel="stylesheet">
+
+	<!----일반------>
+	<link rel="stylesheet" type="text/css" href="/younge/css/webpages.css">
+	<script src="/younge/script/webpages2.js"></script>
+	<script src="/younge/script/nav.js"></script>
+	<link rel="stylesheet" type="text/css" href="/younge/css/navfoot.css">
+	<link rel="stylesheet" type="text/css" href="/younge/css/webpages.css">
+	<link rel="stylesheet" type="text/css" href="/younge/css/margin.css">
+	<link rel="shortcut icon" href="/younge/images/logo20_1.ico" alt="img">
+	<script>
+		/*
+		window.navigator.__defineGetter__('userAgent', function() {
+			return 'Mozilla/5.0 (Linux; Android 4.4.2; sdk Build/KK) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36';
+		});
+		*/
+
+
+
+		function contguard1Popup() {
+			var UserAgent = navigator.userAgent;
+
+			if (UserAgent.match(
+					/iPhone|iPod|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i
+				) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null)
+
+			{
+
+				location.href = "https://open2.shinhaninvest.com/phone/index/0001.jsp"
+				window.localStorage.setItem('getBackTrigger',true);
+
+			} else {
+				window.open("https://open2.shinhaninvest.com/phone/index/0001.jsp", "a", "width=400, height=750, scrollbars=1");
+			}
+		}
+
+	</script>
+</head>
+
+
+<body>
+	<div>
+
+		<div id="layout">
+			<!----헤더1 ---->
+			<section id="header1">
+				<div id="headimg" style="margin-top: 0;">
+					<img src="images/shinhan/shinhan.jpg" alt="img">
+					<img src="/younge/images/scroll.gif" alt="img" id="scrollDown">
+				</div>
+			</section>
+			<!----헤더1 끝 ---->
+			<main>
+				<div>
+					<section class="sec1">
+						<div>
+							<div id="sec1h2_2">
+								<h4>신한금융투자 운영 및 알파App 리뉴얼</h4>
+							</div>
+							<div class="b1">
+								<div id="sec1b1">
+									<a href="https://open.shinhaninvest.com/" target="_blank">
+										<div><img src="images/iconPC.png" alt="img"></div><span style="color: #152475;">PC미리보기</span>
+									</a>
+								</div>
+								<div id="sec1b2">
+									<a href="#none" onclick="contguard1Popup()">
+										<div><img src="images/iconSP.png" alt="img"></div><span style="color: #152475;">모바일&nbsp;미리보기</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div id="sec1left">
+								<div>
+									<p>
+										클라이언트
+									</p>
+									<p class="smallp">
+										신한금융투자
+									</p>
+								</div>
+								<div>
+									<p>
+										타입
+									</p>
+									<p class="smallp">
+										반응형
+									</p>
+								</div>
+								<div>
+									<p>
+										제작참여도
+									</p>
+									<p class="smallp">
+										퍼블리싱 업무(33%)
+									</p>
+								</div>
+								<div>
+									<p>
+										개발도구 및 언어
+									</p>
+									<p class="smallp">
+										HTML, CSS, Javascript, Jquery
+									</p>
+								</div>
+								<div>
+									<p>
+										재직기간
+									</p>
+									<p class="smallp">
+										XX개월: 210503 ~ 221111
+									</p>
+								</div>
+							</div>
+							<div id="sec1right">
+								<div>
+									<p>
+										개요
+									</p>
+									<p class="smallp">
+										신한금융투자 - 빅데이터센터와 디지털플랫폼TFT에서 프리랜서 퍼블리셔로 일했습니다.
+										<br />
+										<br />
+										<b>PC웹사이트:</b> 문구, 이미지수정과 종종 신규페이지 제작<br />
+										<b>모바일 웹사이트:</b> 상동<br />
+										<b>이벤트 페이지:</b> 신한금융투자에서 만드는 수많은 이벤트를 제작, 가장 Script를 많이 사용했던 업무<br />
+										<b>알파2.0 App</b> 재구축: 알파1.0 에서 UI와 화면설계가 바뀌어 크게 리뉴얼 된 어플 작업 <br />
+										<br />
+										이외에 영업부, 퇴직연금부 등 다양한 부서의 요청에 따라 많은 페이지를 제작했습니다.
+									</p>
+								</div>
+								<div>
+									<p>
+										기타
+									</p>
+									<p class="smallp">
+										대부분의 프로세스가 퍼블리싱 ➡ 개발로 흘러가며, 
+										서버와 관련없는 js는 전부 직접 제작
+									</p>
+								</div>
+								<!--<div id="work">
+									<div>
+										<a href="http://pikachu33333.cafe24.com/web/contguard/working2-2/" target="_blank">
+											<img src="images/hoeiso/contwork.jpg" alt="img">
+										</a>
+										<a href="http://pikachu33333.cafe24.com/web/contguard/working2-2/" target="_blank">PC버전</a>
+									</div>
+									<div>
+										<a href="javascript:;" onclick="contguard2Popup();">
+											<img src="images/hoeiso/contp3.jpg" alt="img">
+										</a>
+										<a href="javascript:;" onclick="contguard2Popup();">
+											모바일</a>
+									</div>
+								</div>-->
+							</div>
+						</div>
+					</section>
+
+					<!--<section class="sec2">
+						<div>
+							<div class="sec2wrap">
+								<img src="images/hoeiso/sec2hoeiso2.png" alt="img">
+								<img src="images/hoeiso/sec2hoeiso1.png" alt="img">
+							</div>
+						</div>
+					</section>
+					<section class="sec2">
+						<div>
+							<div class="sec2wrap">
+								<img src="images/hoeiso/hoeisosec1.png" alt="img">
+								<img src="images/hoeiso/hoeisosec2.png" alt="img">
+
+							</div>
+						</div>
+					</section> -->
+
+					<section class="sec3">
+<!--
+						<div>
+							<img src="images/sony/sony1.jpg" alt="img">
+						</div>
+						<div>
+							<img src="images/sony/sony2.jpg" alt="img">
+						</div>
+						<div>
+							<img src="images/sony/sony3.jpg" alt="img">
+						</div>
+						<div>
+							<img src="images/sony/sony4.jpg" alt="img">
+						</div>
+						<div>
+							<img src="images/sony/sony5.jpg" alt="img">
+						</div>
+						<div>
+							<img src="images/sony/sony6.jpg" alt="img">
+						</div>
+						<div>
+							<img src="images/sony/sony7.jpg" alt="img">
+						</div>
+						<div>
+							<img src="images/sony/sony8.jpg" alt="img">
+						</div>
+						<div>
+							<img src="images/sony/sony9.jpg" alt="img">
+						</div>
+						<div class="videopage">
+							<img src="images/sony/sony10.png" alt="img">
+							<video muted controls id="video01">
+								<source src="/younge/webpages/videos/sonypc.mp4" type="video/mp4">
+								<source />
+
+							</video>
+							<video muted controls id="video02">
+								<source src="/younge/webpages/videos/sonysp.mp4" type="video/mp4">
+								<source />
+							</video>
+							<img src="/younge/images/click.gif" class="iconClick">
+
+						</div>
+						<div>
+							<img src="images/sony/sony11.jpg" alt="img">
+						</div>
+-->
+					</section>
+
+
+					<section class="sec5">
+						<div>
+							<div id="sec1b1">
+								<a href="https://open.shinhaninvest.com/" target="_blank">
+									<div><img src="images/iconPC.png" alt="img"></div><span style="color: #152475;">PC미리보기</span>
+								</a>
+							</div>
+							<div id="sec1b2">
+								<a href="#none" onclick="contguard1Popup()">
+									<div><img src="images/iconSP.png" alt="img"></div><span style="color: #152475;">모바일 미리보기</span>
+								</a>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
+
+
+			<aside>
+				<div id="etc">
+					<img src="/younge/images/under.png" alt="under">
+
+				</div>
+			</aside>
+
+		</div>
+	</div>
+</body>
+
+</html>
